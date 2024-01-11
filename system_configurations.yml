@@ -19,7 +19,7 @@
 - hosts: all
   become: true
   roles:
-    -base
+    - base
 
 - hosts: db_servers
   become: true
