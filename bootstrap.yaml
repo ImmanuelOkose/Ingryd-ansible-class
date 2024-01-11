@@ -22,6 +22,7 @@
       tags: always
       copy:
         src: ./files/sudoerOga
+        dest: /etc/sudoers.d/oga
         owner: root
         group: root
         mode: 0440
